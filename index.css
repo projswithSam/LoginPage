@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bii.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    /* border: 12px solid black; */
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+
+
+}
+.container h1{
+    font-size: 40px;
+    display: inline-block;
+    border-bottom: 3px solid purple;
+    margin-bottom: 23px;
+    padding: 0 13px ;
+}
+.box{
+    width: 100%;
+    /* border: 2px solid purple; */
+    padding: 5px 14px;
+    border-bottom: 2px solid purple;
+}
+.box input{
+    background: rgb(251, 254, 255);
+
+    width: 75%;
+    margin: 12px 23px;
+    padding: 5px 0;
+    font-size: 23px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    /* color: black; */
+    /* font-weight: bold; */
+}
+.btn{
+    color: white;
+    outline: auto;
+    cursor: pointer;
+    margin: 25px 10px;
+    width: 25%;
+    padding: 10px 10px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    background: black;
+    font-size: 18px;
+    
+    font-weight: bold;
+
+}
+.btn:hover{
+    color: white;
+    outline: auto;
+    cursor: pointer;
+    margin: 25px 10px;
+    width: 25%;
+    padding: 10px 10px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    background: rgb(40, 50, 227);
+    font-size: 18px;
+    
+    font-weight: bold;
+
+}
+.box i{
+    width: 25px;
+    text-align: center;
+    /* color: black; */
+}
